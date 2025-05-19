@@ -4,7 +4,9 @@
   "description": "A simple Node.js API with GET and POST endpoints",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "build": "echo \"No build step necessary\"",
+    "build-and-start": "npm run build && npm start"
   },
   "dependencies": {
     "express": "^4.17.1"
